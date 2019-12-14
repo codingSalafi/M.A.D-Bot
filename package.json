@@ -4,7 +4,7 @@
   "description": "A whatspp bot that uses twilio ",
   "main": "index.js",
   "scripts": {
-    "start": "babel-node server/server.js",
+    "start": "server/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "CodingSalafi",
