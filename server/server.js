@@ -1,6 +1,7 @@
 import express from 'express';
 import cors from 'cors';
 import madBotRouter from './routes';
+if (process.env.NODE_ENV !== 'production') { require('dotenv').config() }
 
 const app = express();
 
